@@ -6,7 +6,7 @@ const About = () => {
         <section id="about" className="about-container">
             <h2 className="about-me">About Me</h2>
 <p className="description">
-  I’m Rorisang Sekomane, a final-year Computer Science student from Pretoria with a passion for building efficient and scalable software solutions.
+  I’m Rorisang Sekomane, a final-year Computer Science student from Tswane University of Technology with a passion for building efficient and scalable software solutions.
   I specialize in{' '}
   <strong style={{ color: 'red' }}>Java</strong>,{' '}
   <strong style={{ color: 'red' }}>React</strong>,{' '}
