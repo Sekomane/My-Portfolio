@@ -136,7 +136,7 @@ h1 {
   }
 }
 .resume-button {
-  background-color: #ff6347; /* Tomato */
+  background-color: #24292e;
   color: white;
   padding: 10px 25px;
   font-size: 16px;
@@ -146,6 +146,10 @@ h1 {
   margin-left: 15px;
   transition: background-color 0.3s ease;
 }
+.resume-button:hover {
+  background-color: #444;
+}
+
 
 .button-group {
   display: flex;

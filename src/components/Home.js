@@ -30,9 +30,11 @@ const Home = () => {
                 <a href="https://github.com/Sekomane" target="_blank" rel="noopener noreferrer">
                     <button className="github-button">View My GitHub</button>
                 </a>
-                <a href="/RorisangSekomane_Resume.pdf" download>
-                    <button className="github-button">Download Resume</button>
+                <a href={`${process.env.PUBLIC_URL}/RorisangSekomane_Resume.pdf`} download>
+                    <button className="resume-button">Download CV</button>
                 </a>
+
+
             </div>
         </div>
 
